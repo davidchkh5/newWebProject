@@ -22,7 +22,6 @@ protobuf==5.29.4
 pyarrow==19.0.1
 pyasn1==0.6.1
 pydeck==0.9.1
-PySimpleGUI==5.0.9
 python-dateutil==2.9.0.post0
 pytz==2025.2
 referencing==0.36.2
