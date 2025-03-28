@@ -21,11 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Functions.py" />
+    <Compile Include="modules\Functions.py" />
     <Compile Include="newWebProject.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="todos.txt" />
+    <Content Include="files\todos.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="files\" />
+    <Folder Include="modules\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
