@@ -1,8 +1,10 @@
 import streamlit as st
 
 import Functions
+import os
 
 
+print("Current working directory:", os.getcwd())
 
 todos = Functions.get_todos()
 
