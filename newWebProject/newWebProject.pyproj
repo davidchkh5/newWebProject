@@ -21,11 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="modules\Functions.py" />
+    <Compile Include="Functions.py" />
     <Compile Include="newWebProject.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="files\todos.txt" />
+    <Content Include="todos.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="files\" />
